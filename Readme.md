@@ -1,9 +1,5 @@
 # Credit Score Classification: The Power of Clean Data
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/yourusername/credit-score-classification/issues)
-
 > **Demonstrating that data quality almost always beats algorithm sophistication in real-world ML projects**
 
 ## The Core Message
@@ -119,9 +115,6 @@ Contributions welcome! Areas to explore:
 - [ ] Production pipeline with CI/CD
 - [ ] Data versioning with DVC
 - [ ] Interactive results dashboard
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 
 ## Acknowledgments
 
