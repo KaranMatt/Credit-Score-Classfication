@@ -473,18 +473,6 @@ Contributions are welcome! Here are some areas to explore:
 - **Research**: Academic papers on credit risk modeling and data quality in financial services
 - **Industry Experts**: Banking professionals who provided domain insights
 
-
-
-
-
-## Star History
-
-If this project helped you or your team, please consider giving it a star! 
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/credit-score-classification&type=Date)](https://star-history.com/#yourusername/credit-score-classification&Date)
-
----
-
 ## Final Thought
 
 > **"The most sophisticated algorithm in the world cannot learn meaningful patterns from fundamentally corrupted data."**
