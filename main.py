@@ -60,7 +60,7 @@ def health():
     return {'status':'active'}
 
 
-@app.post('/predict')
+@app.post('/predict',response_model=CreditResponse)
 def credit_score_prediction(data:CustomerData):
     input_df=pd.DataFrame([data.model_dump(by_alias=True)])
 
