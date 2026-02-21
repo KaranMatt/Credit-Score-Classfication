@@ -417,6 +417,7 @@ Client Request → FastAPI Endpoint → Data Validation → Preprocessing → Mo
 ### API Features
 
 **Type-safe request validation** with Pydantic models  
+**Structured response enforcement** via `response_model=CreditResponse` on the `/predict` endpoint, guaranteeing the response always contains `Credit_Score` (str) and `Probability` (float)  
 **Automatic data preprocessing** using saved pipelines  
 **Real-time predictions** with probability scores  
 **RESTful endpoints** with health checks    
@@ -676,7 +677,8 @@ credit-score-classification/
 ├── corrupt_data_credit_score.ipynb    # Analysis on corrupt dataset
 ├── clean_data_credit_score.ipynb      # Analysis on clean dataset
 ├── main.py                            # FastAPI application
-├── models/                            # Model artifacts (tracked by DVC)
+├── .gitignore                         # Excludes __pycache__ and models/ from Git (models tracked via DVC)
+├── models/                            # Model artifacts (Git-ignored, tracked by DVC)
 │   ├── scaler.pkl
 │   ├── imputer.pkl
 │   ├── encoder.pkl
